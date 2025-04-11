@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		089629D343297E625BBF4EA3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4B20382518C7403D830E311A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8AA9E18EEE27D9C4054EDEB9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		1C6CE71F59B884152654B694 /* juce-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4E7FFD35455C4C4390FBA5B8 /* Build configuration list for PBXAggregateTarget "juce-populate" */;
+			buildPhases = (
+				72DA1F6279DEB6BBF2C6CAAC /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir */,
+				94DB1FD69B3EBD1DDC8A7C8A /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download */,
+				F06F03441C45CFF3366D946A /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update */,
+				FAF1DA33308C6E25432170D6 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch */,
+				C2F6FECB75F78851742923A3 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure */,
+				D27F521A8B40E1D386D7FC76 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build */,
+				6B6B17F547758AE2427865E5 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install */,
+				1460C60C8D86E3B08F7246A0 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-test */,
+				8203BDC5535A1F1667909496 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-complete */,
+				5A9546421C362AFE31DC0D33 /* Generate CMakeFiles/juce-populate */,
+			);
+			dependencies = (
+				03A2D9B568744A4FB23EAC0A /* PBXTargetDependency */,
+			);
+			name = "juce-populate";
+			productName = "juce-populate";
+		};
+		B2357241FBBCAC384322F084 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C3ADB62850AE4EE5B39B1B27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				178E4197A0AC4573CC8BC42A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D118819E9037411BA2546F5E /* PBXTargetDependency */,
+				F66A5CE5DBAC4F0493571013 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		4AF2A0912FD4453188B57D12 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1DB1DC9042C84AED8899A5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE91B8E7594523937EFB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089629D343297E625BBF4EA3;
+			remoteInfo = ZERO_CHECK;
+		};
+		A87CFED2E67A4DD4B4DEC062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE91B8E7594523937EFB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C6CE71F59B884152654B694;
+			remoteInfo = "juce-populate";
+		};
+		F08F50D22C3E47539C2526A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BE91B8E7594523937EFB6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089629D343297E625BBF4EA3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77ABCFEA15DB43359E359EF9 /* /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F911A347D249438BBA6DEF28 /* /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2350602FA91E4AE09E09D124 = {
+			isa = PBXGroup;
+			children = (
+				CB6BE4F495F44D7A9B3EAB03 /* ExternalProjectTargets */,
+				BD5750C2B983483D882AC63E /* ALL_BUILD */,
+				55371C522BBB40DDB563B155 /* Products */,
+				AFA457AE61F14A52BE93DA18 /* Frameworks */,
+				6D2E3AB751A24B3CB55A75C4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		55371C522BBB40DDB563B155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2E3AB751A24B3CB55A75C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		947B26819B064FE6AA5C7C45 /* juce-populate */ = {
+			isa = PBXGroup;
+			children = (
+				BB6F3614EA6040B690BB2119 /* CMake Rules */,
+				F911A347D249438BBA6DEF28 /* /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeLists.txt */,
+			);
+			name = "juce-populate";
+			sourceTree = "<group>";
+		};
+		96A874E9E8F34EA6831B9C39 /* juce-populate */ = {
+			isa = PBXGroup;
+			children = (
+				947B26819B064FE6AA5C7C45 /* juce-populate */,
+			);
+			name = "juce-populate";
+			sourceTree = "<group>";
+		};
+		A07E57C8E3374AE1A558E4AF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AFA457AE61F14A52BE93DA18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB6F3614EA6040B690BB2119 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BD5750C2B983483D882AC63E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A07E57C8E3374AE1A558E4AF /* CMake Rules */,
+				77ABCFEA15DB43359E359EF9 /* /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CB6BE4F495F44D7A9B3EAB03 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				96A874E9E8F34EA6831B9C39 /* juce-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		B0BE91B8E7594523937EFB6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 6C648E44D12E45229FBCF83C /* Build configuration list for PBXProject "juce-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4AF2A0912FD4453188B57D12 /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2350602FA91E4AE09E09D124;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				B2357241FBBCAC384322F084 /* ALL_BUILD */,
+				089629D343297E625BBF4EA3 /* ZERO_CHECK */,
+				1C6CE71F59B884152654B694 /* juce-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05FFFA5A04AF951B09A83574 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1460C60C8D86E3B08F7246A0 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-test";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		178E4197A0AC4573CC8BC42A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5A9546421C362AFE31DC0D33 /* Generate CMakeFiles/juce-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-complete"			);
+			name = "Generate CMakeFiles/juce-populate";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/juce-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6B6B17F547758AE2427865E5 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		72DA1F6279DEB6BBF2C6CAAC /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+  /opt/homebrew/bin/cmake -Dcfgdir=/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-mkdirs.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8203BDC5535A1F1667909496 /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-install","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-test","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-complete";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+  /opt/homebrew/bin/cmake -E make_directory /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-complete
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8AA9E18EEE27D9C4054EDEB9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+  make -f /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		94DB1FD69B3EBD1DDC8A7C8A /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-mkdir","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-gitinfo.txt"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps
+  /opt/homebrew/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitclone.cmake
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C2F6FECB75F78851742923A3 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-cfgcmd.txt"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D27F521A8B40E1D386D7FC76 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-configure"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-build
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F06F03441C45CFF3366D946A /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-download","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-update-info.txt","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitupdate.cmake"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-src
+  /opt/homebrew/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FAF1DA33308C6E25432170D6 /* Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-update","/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch-info.txt"			);
+			name = "Generate juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch";
+			outputPaths = (
+"/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/juce-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild
+  /opt/homebrew/bin/cmake -E echo_append
+  /opt/homebrew/bin/cmake -E touch /Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/juce-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A2D9B568744A4FB23EAC0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089629D343297E625BBF4EA3 /* ZERO_CHECK */;
+			targetProxy = F08F50D22C3E47539C2526A8 /* PBXContainerItemProxy */;
+		};
+		D118819E9037411BA2546F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C6CE71F59B884152654B694 /* juce-populate */;
+			targetProxy = A87CFED2E67A4DD4B4DEC062 /* PBXContainerItemProxy */;
+		};
+		F66A5CE5DBAC4F0493571013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089629D343297E625BBF4EA3 /* ZERO_CHECK */;
+			targetProxy = 1DB1DC9042C84AED8899A5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC144705991496BAF882208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk;
+				SYMROOT = "/Users/avishaylidani/DEV/NewTemplate1/build_xcode/_deps/juce-subbuild/build";
+			};
+			name = Debug;
+		};
+		629F1B44358A4972BB37C135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "juce-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A7DDA2FF58064B9B992E3F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B14D13D67AAF4267B98D6FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B20382518C7403D830E311A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DDA2FF58064B9B992E3F28 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4E7FFD35455C4C4390FBA5B8 /* Build configuration list for PBXAggregateTarget "juce-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F1B44358A4972BB37C135 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C648E44D12E45229FBCF83C /* Build configuration list for PBXProject "juce-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC144705991496BAF882208 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3ADB62850AE4EE5B39B1B27 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14D13D67AAF4267B98D6FB6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BE91B8E7594523937EFB6F /* Project object */;
+}

@@ -190,6 +190,7 @@ endif()
 
 include(FetchContent)
 
+
 # Try to infer package name from git repository uri (path or url)
 function(cpm_package_name_from_git_uri URI RESULT)
   if("${URI}" MATCHES "([^/:]+)/?.git/?$")
